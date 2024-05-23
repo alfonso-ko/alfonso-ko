@@ -165,13 +165,6 @@ img.clogo2:hover{
     opacity: 0.9;
 }
 
-.cformulario{
-    margin: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 50px;
-    background-color: rgb(179, 146, 190);
-}
 
 .cinput{
     margin: 10px;
@@ -223,39 +216,152 @@ fieldset>legend{
 
 
 .fondo1 {
-    position: relative; /* Establece el contexto de posicionamiento para el logo */
-    min-height: 80vh; /* Para asegurarse de que la caja tenga al menos el 100% de la altura de la ventana */
+    position: relative; 
+    min-height: 80vh; 
     background-image: url('imagenes/portada1.jpg');
-    background-size: cover; /* Para que la imagen de fondo cubra toda la caja */
-    background-position: center; /* Para centrar la imagen de fondo */
+    background-size: cover; 
+    background-position: center; 
     box-shadow: 0px -50px 50px rgba(0, 0, 0, 0.5);
   }
   
   .logo-link {
-    position: absolute; /* Posiciona el logo de forma absoluta dentro del contenedor */
-    bottom: 20px; /* Ajusta la posición vertical del logo */
-    left: 50%; /* Centra el logo horizontalmente */
-    transform: translateX(-50%); /* Centra el logo horizontalmente */
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
   }
   
   .cimagen_logo {
-    width: 100px; /* Ajusta el tamaño de la imagen del logo según tus necesidades */
+    width: 100px; 
     border-radius: 30px;
   }
 
 
 
   .texto-inicio {
-    text-align: center; /* Centra el texto horizontalmente */
-    padding: 50px; /* Añade un espacio alrededor del texto */
+    text-align: center; 
+    padding: 50px; 
   }
   
   .texto-inicio h1 {
-    font-size: 2.5em; /* Tamaño grande para el título */
-    color: #333; /* Color del texto */
+    font-size: 2.5em; 
+    color: #333; 
   }
   
   .texto-inicio p {
-    font-size: 1.2em; /* Tamaño del texto */
-    color: #666; /* Color del texto */
+    font-size: 1.2em;
+    color: #3e3d3d; 
   }
+
+  .cmatriz1{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr); 
+    height: 100%;
+  }
+  
+  .elemento {
+    border: 1px solid transparent; 
+  }
+  
+  
+  .elemento:nth-child(odd) {
+    background-color: #e0e0e0; 
+  }
+  
+  .elemento:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+  
+  .elemento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    
+  }
+
+
+  .cregistrate{
+    size: 20px;
+    border-radius: 40px;
+  }
+
+
+.cbodyregistro {
+    font-family: Arial, sans-serif;
+    background-color: #f5e1ff; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+.formulario1 {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+  
+.formulario1 input[type="text"],
+.formulario1 input[type="email"],
+.formulario1 input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.formulario1 input[type="text"]:focus,
+.formulario1 input[type="email"]:focus,
+.formulario1 input[type="password"]:focus {
+    outline: none;
+    border-color: #6a0dad; 
+    transform: scale(1.05); 
+  }
+  
+.formulario1 input[type="submit"] {
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+  
+.formulario1 input[type="submit"]:hover {
+    background-color: #4a0785; 
+    
+  }
+
+
+.header1846 {
+    background-color: #6a0dad; 
+    padding: 20px;
+  }
+  
+  .clogo1846 img {
+    width: 100px; 
+    height: auto; 
+    border-radius: 40px;
+  }
+
+
+.csubitutlo1903{
+    background-color: #f5e1ff;
+    padding: 0;
+    margin: 0;
+}
+.centrar1906{
+    text-align: center;
+    margin-bottom: -80px;
+}
