@@ -365,3 +365,157 @@ fieldset>legend{
     text-align: center;
     margin-bottom: -80px;
 }
+
+
+.container {
+    display: flex;
+  }
+  
+  .block {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  #fruits {
+    background-color: #FFA500; /* Naranja */
+  }
+  
+  #vegetables {
+    background-color: #008000; /* Verde */
+  }
+  
+  .block h2 {
+    color: white;
+  }
+
+
+
+  .colorette{
+    background-color: rgb(109, 148, 225);
+    height: 100px;
+  }
+
+
+
+.clogo2247{
+    float: left;
+    margin-left: 30px;
+
+}
+
+.clogo2247 img{
+    width: 80px;
+    border-radius: 20px;
+    margin: 10px;
+}   
+
+
+.rosita{
+    background-color: #f5e1ff;
+    margin: -20px;
+}
+
+
+
+
+
+
+
+
+
+.bodic{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.dropdown {
+    position: relative;
+    width: 45%; /* Ajusta el ancho de las columnas */
+}
+
+.dropdown span {
+    display: block;
+    padding: 10px 20px;
+    background-color: #FFA500; /* Naranja */
+    color: white;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50; /* Verde */
+    width: 100%;
+    z-index: 1;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.dropdown-content a {
+    color: #fff; /* Blanco */
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #3e8e41; /* Verde oscuro */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.form-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
