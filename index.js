@@ -19,9 +19,6 @@ document.getElementById('fruits').addEventListener('click', function() {
 
 
 
-
-
-
   function showForm(item, price) {
     document.getElementById('form-container').style.display = 'block';
     document.getElementById('selected-item').value = item; 
